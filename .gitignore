@@ -1,0 +1,22 @@
+# virtual environment
+venv/
+.venv/
+
+# secrets / local config
+.env
+
+# database
+*.db
+
+# generated certificates (keep the folder itself)
+generated_certificates/*
+!generated_certificates/.gitkeep
+
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# editors
+.vscode/
+.idea/
